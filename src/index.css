@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-gradient-to-br from-slate-50 via-blue-50/40 to-emerald-50/30 text-slate-800 antialiased min-h-screen selection:bg-edu-yellow selection:text-slate-900;
+  }
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Map SVG animations */
+.province-path {
+  transition: fill 0.3s ease, stroke 0.3s ease, filter 0.3s ease;
+  transform-origin: center;
+  vector-effect: non-scaling-stroke;
+}
+
+.province-path:hover {
+  filter: drop-shadow(0 0 5px rgba(59, 130, 246, 0.6));
+  cursor: pointer;
+}
+
+/* Gentle pulse animation for correct provinces (not blinding) */
+@keyframes correctGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 4px rgba(245, 158, 11, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.8)) brightness(1.06);
+  }
+}
+
+.province-correct-glow {
+  animation: correctGlow 2.5s infinite ease-in-out;
+}

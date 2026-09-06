@@ -1,0 +1,261 @@
+[
+  {
+    "groupId": "TQ01",
+    "newProvince": "Tuyên Quang",
+    "description": "Hợp nhất Hà Giang và Tuyên Quang lấy tên là tỉnh Tuyên Quang.",
+    "region": "Đông Bắc Bộ",
+    "provinces": [
+      "Hà Giang",
+      "Tuyên Quang"
+    ],
+    "color": "#0284c7"
+  },
+  {
+    "groupId": "LC01",
+    "newProvince": "Lào Cai",
+    "description": "Hợp nhất Yên Bái và Lào Cai lấy tên là tỉnh Lào Cai.",
+    "region": "Tây Bắc Bộ",
+    "provinces": [
+      "Yên Bái",
+      "Lào Cai"
+    ],
+    "color": "#0d9488"
+  },
+  {
+    "groupId": "TN01",
+    "newProvince": "Thái Nguyên",
+    "description": "Hợp nhất Bắc Kạn và Thái Nguyên lấy tên là tỉnh Thái Nguyên.",
+    "region": "Đông Bắc Bộ",
+    "provinces": [
+      "Bắc Kạn",
+      "Thái Nguyên"
+    ],
+    "color": "#16a34a"
+  },
+  {
+    "groupId": "PT01",
+    "newProvince": "Phú Thọ",
+    "description": "Hợp nhất Vĩnh Phúc, Hòa Bình và Phú Thọ lấy tên là tỉnh Phú Thọ.",
+    "region": "Trung du và miền núi phía Bắc",
+    "provinces": [
+      "Vĩnh Phúc",
+      "Hòa Bình",
+      "Phú Thọ"
+    ],
+    "color": "#ca8a04"
+  },
+  {
+    "groupId": "BN01",
+    "newProvince": "Bắc Ninh",
+    "description": "Hợp nhất Bắc Giang và Bắc Ninh lấy tên là tỉnh Bắc Ninh.",
+    "region": "Đồng bằng sông Hồng",
+    "provinces": [
+      "Bắc Giang",
+      "Bắc Ninh"
+    ],
+    "color": "#ea580c"
+  },
+  {
+    "groupId": "HY01",
+    "newProvince": "Hưng Yên",
+    "description": "Hợp nhất Thái Bình và Hưng Yên lấy tên là tỉnh Hưng Yên.",
+    "region": "Đồng bằng sông Hồng",
+    "provinces": [
+      "Thái Bình",
+      "Hưng Yên"
+    ],
+    "color": "#dc2626"
+  },
+  {
+    "groupId": "HP01",
+    "newProvince": "TP Hải Phòng",
+    "description": "Hợp nhất Hải Dương và Hải Phòng lấy tên là TP Hải Phòng.",
+    "region": "Đồng bằng sông Hồng",
+    "provinces": [
+      "Hải Dương",
+      "Hải Phòng"
+    ],
+    "color": "#e11d48"
+  },
+  {
+    "groupId": "NB01",
+    "newProvince": "Ninh Bình",
+    "description": "Hợp nhất Hà Nam, Nam Định và Ninh Bình lấy tên là tỉnh Ninh Bình.",
+    "region": "Đồng bằng sông Hồng",
+    "provinces": [
+      "Hà Nam",
+      "Nam Định",
+      "Ninh Bình"
+    ],
+    "color": "#c026d3"
+  },
+  {
+    "groupId": "QT01",
+    "newProvince": "Quảng Trị",
+    "description": "Hợp nhất Quảng Bình và Quảng Trị lấy tên là tỉnh Quảng Trị.",
+    "region": "Bắc Trung Bộ",
+    "provinces": [
+      "Quảng Bình",
+      "Quảng Trị"
+    ],
+    "color": "#9333ea"
+  },
+  {
+    "groupId": "DN01",
+    "newProvince": "TP Đà Nẵng",
+    "description": "Hợp nhất Quảng Nam và TP Đà Nẵng lấy tên là TP Đà Nẵng.",
+    "region": "Duyên hải Nam Trung Bộ",
+    "provinces": [
+      "Quảng Nam",
+      "Đà Nẵng"
+    ],
+    "color": "#2563eb"
+  },
+  {
+    "groupId": "QNG01",
+    "newProvince": "Quảng Ngãi",
+    "description": "Hợp nhất Kon Tum và Quảng Ngãi lấy tên là tỉnh Quảng Ngãi.",
+    "region": "Duyên hải Nam Trung Bộ",
+    "provinces": [
+      "Kon Tum",
+      "Quảng Ngãi"
+    ],
+    "color": "#0891b2"
+  },
+  {
+    "groupId": "GL01",
+    "newProvince": "Gia Lai",
+    "description": "Hợp nhất Bình Định và Gia Lai lấy tên là tỉnh Gia Lai.",
+    "region": "Tây Nguyên",
+    "provinces": [
+      "Bình Định",
+      "Gia Lai"
+    ],
+    "color": "#059669"
+  },
+  {
+    "groupId": "KH01",
+    "newProvince": "Khánh Hòa",
+    "description": "Hợp nhất Ninh Thuận và Khánh Hòa lấy tên là tỉnh Khánh Hòa.",
+    "region": "Duyên hải Nam Trung Bộ",
+    "provinces": [
+      "Ninh Thuận",
+      "Khánh Hòa"
+    ],
+    "color": "#d97706"
+  },
+  {
+    "groupId": "LD01",
+    "newProvince": "Lâm Đồng",
+    "description": "Hợp nhất Đắk Nông, Bình Thuận và Lâm Đồng lấy tên là tỉnh Lâm Đồng.",
+    "region": "Tây Nguyên",
+    "provinces": [
+      "Đắk Nông",
+      "Bình Thuận",
+      "Lâm Đồng"
+    ],
+    "color": "#65a30d"
+  },
+  {
+    "groupId": "DL01",
+    "newProvince": "Đắk Lắk",
+    "description": "Hợp nhất Phú Yên và Đắk Lắk lấy tên là tỉnh Đắk Lắk.",
+    "region": "Tây Nguyên",
+    "provinces": [
+      "Phú Yên",
+      "Đắk Lắk"
+    ],
+    "color": "#b45309"
+  },
+  {
+    "groupId": "DNA01",
+    "newProvince": "Đồng Nai",
+    "description": "Hợp nhất Bình Phước và Đồng Nai lấy tên là tỉnh Đồng Nai.",
+    "region": "Đông Nam Bộ",
+    "provinces": [
+      "Bình Phước",
+      "Đồng Nai"
+    ],
+    "color": "#4f46e5"
+  },
+  {
+    "groupId": "HCM01",
+    "newProvince": "TP Hồ Chí Minh",
+    "description": "Hợp nhất Bà Rịa - Vũng Tàu, Bình Dương và TP Hồ Chí Minh lấy tên là TP Hồ Chí Minh.",
+    "region": "Đông Nam Bộ",
+    "provinces": [
+      "Bà Rịa - Vũng Tàu",
+      "Bình Dương",
+      "TP. Hồ Chí Minh"
+    ],
+    "color": "#10b981"
+  },
+  {
+    "groupId": "TN02",
+    "newProvince": "Tây Ninh",
+    "description": "Hợp nhất Long An và Tây Ninh lấy tên là tỉnh Tây Ninh.",
+    "region": "Đông Nam Bộ",
+    "provinces": [
+      "Long An",
+      "Tây Ninh"
+    ],
+    "color": "#84cc16"
+  },
+  {
+    "groupId": "CT01",
+    "newProvince": "TP Cần Thơ",
+    "description": "Hợp nhất Sóc Trăng, Hậu Giang và Cần Thơ lấy tên là TP Cần Thơ.",
+    "region": "Đồng bằng sông Cửu Long",
+    "provinces": [
+      "Sóc Trăng",
+      "Hậu Giang",
+      "Cần Thơ"
+    ],
+    "color": "#06b6d4"
+  },
+  {
+    "groupId": "VL01",
+    "newProvince": "Vĩnh Long",
+    "description": "Hợp nhất Bến Tre, Trà Vinh và Vĩnh Long lấy tên là tỉnh Vĩnh Long.",
+    "region": "Đồng bằng sông Cửu Long",
+    "provinces": [
+      "Bến Tre",
+      "Trà Vinh",
+      "Vĩnh Long"
+    ],
+    "color": "#6366f1"
+  },
+  {
+    "groupId": "DT01",
+    "newProvince": "Đồng Tháp",
+    "description": "Hợp nhất Tiền Giang và Đồng Tháp lấy tên là tỉnh Đồng Tháp.",
+    "region": "Đồng bằng sông Cửu Long",
+    "provinces": [
+      "Tiền Giang",
+      "Đồng Tháp"
+    ],
+    "color": "#ec4899"
+  },
+  {
+    "groupId": "CM01",
+    "newProvince": "Cà Mau",
+    "description": "Hợp nhất Bạc Liêu và Cà Mau lấy tên là tỉnh Cà Mau.",
+    "region": "Đồng bằng sông Cửu Long",
+    "provinces": [
+      "Bạc Liêu",
+      "Cà Mau"
+    ],
+    "color": "#14b8a6"
+  },
+  {
+    "groupId": "AG01",
+    "newProvince": "An Giang",
+    "description": "Hợp nhất Kiên Giang và An Giang lấy tên là tỉnh An Giang.",
+    "region": "Đồng bằng sông Cửu Long",
+    "provinces": [
+      "Kiên Giang",
+      "An Giang"
+    ],
+    "color": "#f59e0b"
+  }
+]
