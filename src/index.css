@@ -52,3 +52,14 @@
 .province-correct-glow {
   animation: correctGlow 2.5s infinite ease-in-out;
 }
+
+/* Merged new province styling & animations */
+.province-merged-path {
+  transition: fill 0.3s ease, stroke 0.3s ease, filter 0.3s ease, transform 0.2s ease;
+  transform-origin: center;
+  vector-effect: non-scaling-stroke;
+}
+
+.province-merged-path:hover {
+  filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.9)) brightness(1.08);
+}

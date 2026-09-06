@@ -394,16 +394,23 @@ export const SelectedPanel: React.FC = () => {
             <option value="" disabled>
               -- Bấm vào đây để chọn nhanh tỉnh thành --
             </option>
-            {sortedProvinces.map((p) => {
-              const isSelected = selectedProvinceIds.includes(p.id);
-              const isCompleted = completedGroupIds.includes(p.groupId);
-              return (
-                <option key={p.id} value={p.id} disabled={isSelected || isCompleted}>
-                  {isSelected ? '✓ ' : isCompleted ? '★ ' : ''}
-                  {p.oldProvince} ({p.region})
-                </option>
-              );
-            })}
+            {sortedProvinces.filter((p) => !completedGroupIds.includes(p.groupId)).length === 0 ? (
+              <option value="" disabled>
+                🎉 Em đã hoàn thành ghép tất cả các tỉnh mới!
+              </option>
+            ) : (
+              sortedProvinces
+                .filter((p) => !completedGroupIds.includes(p.groupId))
+                .map((p) => {
+                  const isSelected = selectedProvinceIds.includes(p.id);
+                  return (
+                    <option key={p.id} value={p.id} disabled={isSelected}>
+                      {isSelected ? '✓ ' : ''}
+                      {p.oldProvince} ({p.region})
+                    </option>
+                  );
+                })
+            )}
           </select>
         </div>
 
